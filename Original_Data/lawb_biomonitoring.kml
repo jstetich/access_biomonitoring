@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+    xmlns:atom="http://www.w3.org/2005/Atom">
+	 
+<Document>         
+    <atom:author>             
+		<atom:name>Maine Department of Environmental Protection</atom:name>         
+    </atom:author>         
+    <atom:link href="https://www.maine.gov/dep/gis/datamaps" />
+	<name>Maine DEP Biomonitoring Sites</name>
+	<open>1</open>
+	<Snippet maxLines="2"><![CDATA[<P>Click here for DEP<BR>Contacts and Links</P>]]></Snippet>
+	<description><![CDATA[
+		<TABLE cellSpacing=4 cellPadding=1 width="100%" summary="" border=0>
+		<TBODY><TR>
+		<TD><IMG height=76 alt="DEP Logo" src="http://www.maine.gov/dep/gis/images/deplogo.png" width=75 align=textTop></TD>
+		<TD><font size=3 align=center><b>Maine Department of Environmental Protection</b></font></TD>
+		</TR></TBODY></TABLE>
+		<p align=center>Locations for the Biomonitoring program's Stream and Wetland Samples.</p>
+		<p><a href='http://www.maine.gov/dep/water/monitoring/biomonitoring/data.htm'>Biomonitoring Maps and Data</a></p>
+		<p><a href='http://www.maine.gov/dep/water/monitoring/biomonitoring/datahints.htm'>Instructions and Help Files</a></p>
+		<p><a href='http://www.maine.gov/dep/water/monitoring/biomonitoring/contact.htm'>Staff Contacts</a> for data questions.</p>]]></description>
+	<LookAt>
+		<longitude>-69.31801790095346</longitude>
+		<latitude>45.24251821354257</latitude>
+		<altitude>0</altitude>
+		<range>559521.845808612</range>
+		<tilt>4.617280561000068e-011</tilt>
+		<heading>0</heading>
+	</LookAt>
+	<DocumentSource>Maine DEP</DocumentSource>
+	
+	<ScreenOverlay>
+		<name>Logo</name>
+		<Icon>
+			<href>https://www.maine.gov/dep/gis/images/deplogo.png</href>
+		</Icon>
+		<overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+		<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+		<size x="0.07" y="0" xunits="fraction" yunits="fraction"/>
+	</ScreenOverlay>
+	
+	<NetworkLink>
+		<name>Biomonitoring Stations</name>
+		<open>0</open>
+		<visibility>1</visibility>
+		<Url>
+			<href>https://www.maine.gov/dep/gis/datamaps/lawb_biomonitoring/lawb_biomonitoring_station.kmz</href>
+		</Url>
+	</NetworkLink>
+	
+	<Folder>
+		<name>Data Views - Search By..</name>
+		<open>1</open>
+			<NetworkLink>
+				<name>County</name> 
+				<open>0</open>
+				<visibility>0</visibility>
+				<Url>
+					<href>https://www.maine.gov/dep/gis/datamaps/lawb_biomonitoring/lawb_biomonitoring_county.kmz</href>      
+				</Url>
+			</NetworkLink>
+			<NetworkLink>
+				<name>Major Drainage</name> 
+				<open>0</open>
+				<visibility>0</visibility>
+				<Url>
+					<href>https://www.maine.gov/dep/gis/datamaps/lawb_biomonitoring/lawb_biomonitoring_major_drainage.kmz</href>      
+				</Url>
+			</NetworkLink>
+			<NetworkLink>
+				<name>Town</name> 
+				<open>0</open>
+				<visibility>0</visibility>
+				<Url>
+					<href>https://www.maine.gov/dep/gis/datamaps/lawb_biomonitoring/lawb_biomonitoring_town.kmz</href>      
+				</Url>
+			</NetworkLink>
+			<NetworkLink>
+				<name>Sample ID</name> 
+				<open>0</open>
+				<visibility>0</visibility>
+				<Url>
+					<href>https://www.maine.gov/dep/gis/datamaps/lawb_biomonitoring/lawb_biomonitoring_sample_id.kmz</href>      
+				</Url>
+			</NetworkLink>
+			<NetworkLink>
+				<name>County and Statutory Class</name> 
+				<open>0</open>
+				<visibility>0</visibility>
+				<Url>
+					<href>https://www.maine.gov/dep/gis/datamaps/lawb_biomonitoring/lawb_biomonitoring_county_statclass.kmz</href>      
+				</Url>
+			</NetworkLink>
+			<NetworkLink>
+				<name>County and Aquatic Life Attainment</name> 
+				<open>0</open>
+				<visibility>0</visibility>
+				<Url>
+					<href>https://www.maine.gov/dep/gis/datamaps/lawb_biomonitoring/lawb_biomonitoring_county_attainment.kmz</href>      
+				</Url>
+			</NetworkLink>
+			<NetworkLink>
+				<name>County and Human Disturbance Score</name> 
+				<open>0</open>
+				<visibility>0</visibility>
+				<Url>
+					<href>https://www.maine.gov/dep/gis/datamaps/lawb_biomonitoring/lawb_biomonitoring_county_humandistscore.kmz</href>      
+				</Url>
+			</NetworkLink>
+			<NetworkLink>
+				<name>Major Drainage and Statutory Class</name> 
+				<open>0</open>
+				<visibility>0</visibility>
+				<Url>
+					<href>https://www.maine.gov/dep/gis/datamaps/lawb_biomonitoring/lawb_biomonitoring_major_drainage_statclass.kmz</href>      
+				</Url>
+			</NetworkLink>
+			<NetworkLink>
+				<name>Major Drainage and Aquatic Life Attainment</name> 
+				<open>0</open>
+				<visibility>0</visibility>
+				<Url>
+					<href>https://www.maine.gov/dep/gis/datamaps/lawb_biomonitoring/lawb_biomonitoring_major_drainage_attainment.kmz</href>      
+				</Url>
+			</NetworkLink>
+			<NetworkLink>
+				<name>Major Drainage and Human Disturbance Score</name> 
+				<open>0</open>
+				<visibility>0</visibility>
+				<Url>
+					<href>https://www.maine.gov/dep/gis/datamaps/lawb_biomonitoring/lawb_biomonitoring_major_drainage_humandistscore.kmz</href>      
+				</Url>
+			</NetworkLink>
+	</Folder>	
+
+	<NetworkLink>
+		<name>Waterbody Statutory Classification</name>
+		<open>1</open>
+		<visibility>0</visibility>
+		<Url>
+			<href>https://www.maine.gov/dep/gis/datamaps/statewide_layers/water_classification.kml</href>
+		</Url>
+	</NetworkLink>	
+
+	
+	<NetworkLink>
+		<name>Major Drainages</name>
+		<open>1</open>
+		<visibility>0</visibility>
+		<Url>
+			<href>https://www.maine.gov/dep/gis/datamaps/statewide_layers/major_drainages.kmz</href>
+		</Url>
+	</NetworkLink>
+	
+	<NetworkLink>
+		<name>Town Lines</name>
+		<open>0</open>
+		<visibility>0</visibility>
+		<Url>
+			<href>https://www.maine.gov/dep/gis/datamaps/statewide_layers/Maine_Towns.kmz</href>
+		</Url>
+	</NetworkLink>
+
+	<NetworkLink>
+		<name>Wetlands - US Fish and Wildlife</name>
+		<open>0</open>
+		<visibility>0</visibility>
+		<Url>
+			<href>https://www.maine.gov/dep/gis/datamaps/statewide_layers/fws_wetlands_data.kmz</href>
+		</Url>
+	</NetworkLink>	
+	
+	<NetworkLink>
+		<name>USGS Topo Maps</name>
+		<open>0</open>
+		<visibility>0</visibility>
+		<Url>
+			<href>https://www.maine.gov/megis/catalog/kml/wms/usgs_topo_maps.kml</href>
+		</Url>
+	</NetworkLink>
+	
+</Document>
+</kml>
