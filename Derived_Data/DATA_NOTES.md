@@ -25,7 +25,6 @@
     the "A", "B", "C" rankings based on invertebrate biomonitoring. 
     It does not successfully download associated data for all samples, but it
     gets most of them. 
-   
 
 #  KML Source Files
 The `KML` file here `lawb_biomonitoring_station_2019.kml`, was extracted from
@@ -184,7 +183,7 @@ These `KML` files contain principally <Placemark> tags. Each Placemark
 contains the following tags:  
 
 *  <name>         - The name of the placemark.  This appears to relate to a sample or a station.
-                    It usually corresponds to a code or ID in teh HTML
+                    It usually corresponds to a code or ID in the HTML
 				
 *  <visibility>  
 
@@ -232,7 +231,7 @@ Successive rows of this first table contain the following:
 
 In our experience, the latitude and longitude here matches the latitude
 and longitude in the <coordinates> tag.  Similarly, the Station Number
-in the HTML matches the <name> tag in teh Placemark.
+in the HTML matches the <name> tag in the Placemark.
 
 The Second Table follows a line of bolded text containing "Sample(s):".  
 It contains one or more rows providing summary data on samples taken a this
@@ -267,11 +266,11 @@ htmlparse2Data.py definies an HTML parser class that reads the DEP formatted KML
 <description> tag.
 
 Data Parser Station generates two CSV files, one listing stations, the other
-listing samples, linked to teh Stations data by a common "Station Number" key.
+listing samples, linked to the Stations data by a common "Station Number" key.
 
 # Diving Deeper.
 THE DEP KML files frequently contain links to underlying data files giving results
-of biomonitoring in great detail.  These secondary links take twoo forms :  PDF reports
+of biomonitoring in great detail.  These secondary links take two forms:  PDF reports
 and CSV tabular summaries of individual parameters.  Both CSV and PDF files can
 be downloaded from the DEP server using a simple URL request, if you know the appropriate
 URL.  The URL format is fairly simple, consisting of a long header, followed by a
@@ -281,7 +280,7 @@ sample ID, and last, the ".csv. extension, as follows:
   "http://www.maine.gov/dep/gis/datamaps/lawb_biomonitoring/results/"
 
 * A Sample ID Number:   e.g., Sample "314" from Station S-143. (We have a list of 
-  Sample ID Numbers now.now)
+  Sample ID Numbers now.)
 
 * The Suffix ".csv'
 
@@ -289,7 +288,7 @@ The resulting URL:
 <http://www.maine.gov/dep/gis/datamaps/lawb_biomonitoring/results/314.csv>
 accesses the CSV file, which can be saved directly, or parsed.
 
-We have developed draft Python scripts to access and arse these CSV files, but
+We have developed draft Python scripts to access and parse these CSV files, but
 we do not use the raw CSV files in State of Casco Bay, so hey are not included
 in the Git archive at this time.
 
